@@ -1,0 +1,423 @@
+[
+  {
+    "id": "q01",
+    "text": "Office ke liye kurti 700 ke andar",
+    "language": "Hinglish",
+    "group": "B",
+    "expected_parse": {
+      "intent": "shop",
+      "product": "kurti",
+      "max_price": 700,
+      "sort": null,
+      "min_rating": null,
+      "colour": null,
+      "occasion": "office"
+    }
+  },
+  {
+    "id": "q02",
+    "text": "Isase sasta dikhao",
+    "language": "Hindi",
+    "group": "E",
+    "expected_parse": {
+      "intent": "follow-up",
+      "product": null,
+      "max_price": null,
+      "sort": "cheapest",
+      "min_rating": null,
+      "colour": null,
+      "occasion": null
+    }
+  },
+  {
+    "id": "q03",
+    "text": "Gift ke liye kuchh achcha dikhao",
+    "language": "Hinglish",
+    "group": "G",
+    "expected_parse": {
+      "intent": "shop",
+      "product": "gift",
+      "max_price": null,
+      "sort": null,
+      "min_rating": null,
+      "colour": null,
+      "occasion": null
+    }
+  },
+  {
+    "id": "q04",
+    "text": "Mere bete ke liye school bag",
+    "language": "Hinglish",
+    "group": "A",
+    "expected_parse": {
+      "intent": "shop",
+      "product": "school bag",
+      "max_price": null,
+      "sort": null,
+      "min_rating": null,
+      "colour": null,
+      "occasion": "school"
+    }
+  },
+  {
+    "id": "q05",
+    "text": "Mera order kahan hai",
+    "language": "Hindi",
+    "group": "F",
+    "expected_parse": {
+      "intent": "support",
+      "product": null,
+      "max_price": null,
+      "sort": null,
+      "min_rating": null,
+      "colour": null,
+      "occasion": null
+    }
+  },
+  {
+    "id": "q06",
+    "text": "Saree under 500 for a wedding",
+    "language": "English",
+    "group": "B",
+    "expected_parse": {
+      "intent": "shop",
+      "product": "saree",
+      "max_price": 500,
+      "sort": null,
+      "min_rating": null,
+      "colour": null,
+      "occasion": "wedding"
+    }
+  },
+  {
+    "id": "q07",
+    "text": "Tell me today's weather",
+    "language": "English",
+    "group": "G",
+    "expected_parse": {
+      "intent": "off-topic",
+      "product": null,
+      "max_price": null,
+      "sort": null,
+      "min_rating": null,
+      "colour": null,
+      "occasion": null
+    }
+  },
+  {
+    "id": "q08",
+    "text": "Shaadi ke liye lehenga",
+    "language": "Hinglish",
+    "group": "A",
+    "expected_parse": {
+      "intent": "shop",
+      "product": "lehenga",
+      "max_price": null,
+      "sort": null,
+      "min_rating": null,
+      "colour": null,
+      "occasion": "shaadi"
+    }
+  },
+  {
+    "id": "q09",
+    "text": "Office wear kurta for daily use",
+    "language": "English",
+    "group": "A",
+    "expected_parse": {
+      "intent": "shop",
+      "product": "kurta",
+      "max_price": null,
+      "sort": null,
+      "min_rating": null,
+      "colour": null,
+      "occasion": "office"
+    }
+  },
+  {
+    "id": "q10",
+    "text": "Ghar ke liye bedsheet double bed",
+    "language": "Hinglish",
+    "group": "D",
+    "expected_parse": {
+      "intent": "shop",
+      "product": "bedsheet",
+      "max_price": null,
+      "sort": null,
+      "min_rating": null,
+      "colour": null,
+      "size": "double bed"
+    }
+  },
+  {
+    "id": "q11",
+    "text": "Ghar ke liye bedsheet double bed, sasta dikhao",
+    "language": "Hinglish",
+    "group": "C",
+    "expected_parse": {
+      "intent": "shop",
+      "product": "bedsheet",
+      "max_price": null,
+      "sort": "cheapest",
+      "min_rating": null,
+      "colour": null,
+      "size": "double bed"
+    }
+  },
+  {
+    "id": "q12",
+    "text": "Delivery kitne din mein hoga",
+    "language": "Hindi",
+    "group": "F",
+    "expected_parse": {
+      "intent": "support",
+      "product": null,
+      "max_price": null,
+      "sort": null,
+      "min_rating": null,
+      "colour": null,
+      "occasion": null
+    }
+  },
+  {
+    "id": "q13",
+    "text": "Winter ke liye warm jacket",
+    "language": "Hinglish",
+    "group": "A",
+    "expected_parse": {
+      "intent": "shop",
+      "product": "jacket",
+      "max_price": null,
+      "sort": null,
+      "min_rating": null,
+      "colour": null,
+      "occasion": "winter"
+    }
+  },
+  {
+    "id": "q14",
+    "text": "Winter ke liye warm jacket ladkiyon ke liye",
+    "language": "Hinglish",
+    "group": "D",
+    "expected_parse": {
+      "intent": "shop",
+      "product": "jacket",
+      "max_price": null,
+      "sort": null,
+      "min_rating": null,
+      "colour": null,
+      "occasion": "winter",
+      "gender": "girls"
+    }
+  },
+  {
+    "id": "q15",
+    "text": "Mera order kahan hai (repeat)",
+    "language": "Hindi",
+    "group": "F",
+    "expected_parse": {
+      "intent": "support",
+      "product": null,
+      "max_price": null,
+      "sort": null,
+      "min_rating": null,
+      "colour": null,
+      "occasion": null
+    }
+  },
+  {
+    "id": "q16",
+    "text": "Password change karna hai",
+    "language": "Hindi",
+    "group": "F",
+    "expected_parse": {
+      "intent": "support",
+      "product": null,
+      "max_price": null,
+      "sort": null,
+      "min_rating": null,
+      "colour": null,
+      "occasion": null
+    }
+  },
+  {
+    "id": "q17",
+    "text": "Customer care number",
+    "language": "English",
+    "group": "F",
+    "expected_parse": {
+      "intent": "support",
+      "product": null,
+      "max_price": null,
+      "sort": null,
+      "min_rating": null,
+      "colour": null,
+      "occasion": null
+    }
+  },
+  {
+    "id": "q18",
+    "text": "Ladies chappal size six",
+    "language": "Hinglish",
+    "group": "D",
+    "expected_parse": {
+      "intent": "shop",
+      "product": "chappal",
+      "max_price": null,
+      "sort": null,
+      "min_rating": null,
+      "colour": null,
+      "size": "6"
+    }
+  },
+  {
+    "id": "q19",
+    "text": "Rasoi ke bartan steel",
+    "language": "Hinglish",
+    "group": "D",
+    "expected_parse": {
+      "intent": "shop",
+      "product": "bartan",
+      "max_price": null,
+      "sort": null,
+      "min_rating": null,
+      "colour": "steel",
+      "occasion": "kitchen"
+    }
+  },
+  {
+    "id": "q20",
+    "text": "Bluetooth speaker",
+    "language": "English",
+    "group": "A",
+    "expected_parse": {
+      "intent": "shop",
+      "product": "bluetooth speaker",
+      "max_price": null,
+      "sort": null,
+      "min_rating": null,
+      "colour": null,
+      "occasion": null
+    }
+  },
+  {
+    "id": "q21",
+    "text": "Women's wallet (said instead of men's)",
+    "language": "English",
+    "group": "A",
+    "expected_parse": {
+      "intent": "shop",
+      "product": "wallet",
+      "max_price": null,
+      "sort": null,
+      "min_rating": null,
+      "colour": null,
+      "gender": "women"
+    }
+  },
+  {
+    "id": "q22",
+    "text": "Mobile ke liye tempered glass",
+    "language": "Hinglish",
+    "group": "A",
+    "expected_parse": {
+      "intent": "shop",
+      "product": "tempered glass",
+      "max_price": null,
+      "sort": null,
+      "min_rating": null,
+      "colour": null,
+      "occasion": null
+    }
+  },
+  {
+    "id": "q23",
+    "text": "Play a good song",
+    "language": "English",
+    "group": "G",
+    "expected_parse": {
+      "intent": "off-topic",
+      "product": null,
+      "max_price": null,
+      "sort": null,
+      "min_rating": null,
+      "colour": null,
+      "occasion": null
+    }
+  },
+  {
+    "id": "q24",
+    "text": "Show me cheapest raincoat",
+    "language": "English",
+    "group": "C",
+    "expected_parse": {
+      "intent": "shop",
+      "product": "raincoat",
+      "max_price": null,
+      "sort": "cheapest",
+      "min_rating": null,
+      "colour": null,
+      "occasion": null
+    }
+  },
+  {
+    "id": "q25",
+    "text": "Premium quality cardigan",
+    "language": "English",
+    "group": "D",
+    "expected_parse": {
+      "intent": "shop",
+      "product": "cardigan",
+      "max_price": null,
+      "sort": null,
+      "min_rating": null,
+      "colour": null,
+      "occasion": null
+    }
+  },
+  {
+    "id": "q26",
+    "text": "Phone cover",
+    "language": "English",
+    "group": "A",
+    "expected_parse": {
+      "intent": "shop",
+      "product": "phone cover",
+      "max_price": null,
+      "sort": null,
+      "min_rating": null,
+      "colour": null,
+      "occasion": null
+    }
+  },
+  {
+    "id": "q27",
+    "text": "Winter sweater under 800 rupees",
+    "language": "Hinglish",
+    "group": "B",
+    "expected_parse": {
+      "intent": "shop",
+      "product": "sweater",
+      "max_price": 800,
+      "sort": null,
+      "min_rating": null,
+      "colour": null,
+      "occasion": "winter"
+    }
+  },
+  {
+    "id": "q28",
+    "text": "Summer tops rated 4.1 above",
+    "language": "English",
+    "group": "D",
+    "expected_parse": {
+      "intent": "shop",
+      "product": "tops",
+      "max_price": null,
+      "sort": null,
+      "min_rating": 4.1,
+      "colour": null,
+      "occasion": "summer"
+    }
+  }
+]

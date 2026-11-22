@@ -1,0 +1,56 @@
+{
+  "status": "VERIFIED",
+  "generated_at": "2026-11-22 16:14:17",
+  "metrics": [
+    {
+      "key": "sort_rating",
+      "name": "Sort & rating words honoured",
+      "baseline_pct": 0.0,
+      "baseline_n": 0,
+      "baseline_total": 4,
+      "fix_pct": 100.0,
+      "fix_n": 4,
+      "fix_total": 4
+    },
+    {
+      "key": "follow_up",
+      "name": "Follow-up conversational success",
+      "baseline_pct": 0.0,
+      "baseline_n": 0,
+      "baseline_total": 1,
+      "fix_pct": 100.0,
+      "fix_n": 1,
+      "fix_total": 1
+    },
+    {
+      "key": "intent_routing",
+      "name": "Intent-routing accuracy",
+      "baseline_pct": 67.9,
+      "baseline_n": 19,
+      "baseline_total": 28,
+      "fix_pct": 100.0,
+      "fix_n": 28,
+      "fix_total": 28
+    },
+    {
+      "key": "support_offtopic",
+      "name": "Support & off-topic handled",
+      "baseline_pct": 0.0,
+      "baseline_n": 0,
+      "baseline_total": 7,
+      "fix_pct": 100.0,
+      "fix_n": 7,
+      "fix_total": 7
+    },
+    {
+      "key": "overall_pass",
+      "name": "Overall query pass rate",
+      "baseline_pct": 35.7,
+      "baseline_n": 10,
+      "baseline_total": 28,
+      "fix_pct": 92.9,
+      "fix_n": 26,
+      "fix_total": 28
+    }
+  ]
+}

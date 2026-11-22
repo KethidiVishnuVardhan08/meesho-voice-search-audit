@@ -1,0 +1,10 @@
+node_modules
+dist
+dist-ssr
+*.local
+.DS_Store
+.env
+meesho-audit-screens
+meesho-audit-screens.zip
+
+.vercel

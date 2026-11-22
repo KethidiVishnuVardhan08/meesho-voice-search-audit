@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+/* Accessibility: 3px pen-blue focus rings */
+*:focus-visible {
+  outline: 3px solid #1D3C8F !important;
+  outline-offset: 2px !important;
+}
+
+/* Paper noise texture overlay under 6% opacity */
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none;
+  z-index: 9999;
+  opacity: 0.045;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+}
+
+/* Rubber Stamp Thump-in motion */
+@keyframes stamp-thump {
+  0% {
+    opacity: 0;
+    transform: scale(1.18) rotate(var(--stamp-rot, -3deg));
+  }
+  70% {
+    opacity: 1;
+    transform: scale(0.97) rotate(var(--stamp-rot, -3deg));
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) rotate(var(--stamp-rot, -3deg));
+  }
+}
+
+.stamp-animate {
+  animation: stamp-thump 0.35s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
+}
+
+/* Fade up 12px */
+@keyframes fade-up-12 {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.card-fade-up {
+  animation: fade-up-12 0.4s ease-out forwards;
+}
+
+/* Reduced motion preference */
+@media (prefers-reduced-motion: reduce) {
+  .stamp-animate,
+  .card-fade-up,
+  * {
+    animation: none !important;
+    transition: none !important;
+    transform: none !important;
+  }
+}
+
+/* Masking tape strip aesthetic */
+.masking-tape {
+  background-color: rgba(239, 233, 215, 0.85);
+  box-shadow: 0 1px 2px rgba(21, 19, 15, 0.15);
+  border-left: 2px dashed rgba(21, 19, 15, 0.2);
+  border-right: 2px dashed rgba(21, 19, 15, 0.2);
+}
+
+/* Highlighter underline style */
+.highlight-line {
+  background: linear-gradient(180deg, transparent 65%, #F4E04D 65%);
+}
